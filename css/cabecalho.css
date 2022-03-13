@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    background-color: red;
+}
+
+#logo {
+    width: 100px;
+    margin: 10px 100px;
+}
+
+.navegacao {
+    margin: 10px 100px;
+}
+
+.links-nav {
+    color: rgb(255, 255, 255);
+    padding: 0px 10px;
+}
+
+.links-nav:hover {
+    color: rgb(209, 171, 171);
+    text-decoration: underline;
+}
+
